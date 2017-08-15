@@ -1,0 +1,51 @@
+.order-list-item{
+  display: flex;
+  img,.list-content,.order-btn{
+    flex: 1;
+    display: flex;
+  }
+  img{
+    width: 120px;
+    height: 90px;
+    margin: 8px;
+  }
+  .list-content{
+    flex-direction: column;
+  }
+  .order-btn{
+    align-items: center;
+    justify-content: center;
+    button{
+      width: 60px;
+      height: 35px;
+      background: red;
+      color: white;
+      border-radius: 5px;
+    }
+    .unselect{
+      background: #ccc;
+    }
+  }
+
+}
+.comment-area{
+display: flex;
+  flex-direction: column;
+  textarea{
+    border:1px solid #ccc;
+    height: 70px;
+  }
+  div{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+
+    button{
+      width: 70px;
+      height: 35px;
+      border-radius: 5px;
+
+    }
+  }
+}
